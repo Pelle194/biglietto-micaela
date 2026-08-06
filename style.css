@@ -193,15 +193,25 @@ p {
    CARICAMENTO E RISULTATO
 ========================= */
 .orb {
-  width: 175px;
-  height: 175px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  font-size: 4rem;
-  background: conic-gradient(var(--pink), var(--yellow), var(--sky), var(--lilac), var(--pink));
-  box-shadow: 0 0 38px #ffffff;
-  animation: spin 2s linear infinite;
+    width: 175px;
+    height: 175px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: conic-gradient(
+        var(--pink),
+        var(--yellow),
+        var(--sky),
+        var(--lilac),
+        var(--pink)
+    );
+
+    box-shadow: 0 0 38px #ffffff;
+    animation: spin 2s linear infinite;
 }
 
 /* =========================
