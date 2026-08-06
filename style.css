@@ -212,17 +212,8 @@ p {
   box-shadow: 0 0 38px #ffffff;
   animation: spin 2s linear infinite;
 }
-.orbCore{
-    position:absolute;
-    inset:0;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    font-size:4rem;
-
-    animation:pulse 1.3s ease-in-out infinite;
+.center .orb {
+  justify-self: center;
 }
 
 /* =========================
