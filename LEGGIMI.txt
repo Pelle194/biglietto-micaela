@@ -1,10 +1,16 @@
-COME PUBBLICARLO
-1. Crea su GitHub un nuovo repository, per esempio: biglietto-micaela.
-2. Apri lo ZIP e carica i file index.html, style.css e script.js nella cartella principale del repository.
-3. Su Netlify: Add new site > Import an existing project > GitHub.
-4. Seleziona il repository.
-5. Branch: main. Build command: vuoto. Publish directory: . oppure vuoto.
-6. Premi Deploy.
+BIGLIETTO UNICORNO MICAELA — VERSIONE 3
 
-Per modificare domande e risultati apri script.js.
-Per modificare la scritta finale apri index.html.
+Questa versione contiene gli stessi contenuti e le stesse funzioni della versione 2,
+ma style.css e script.js sono completamente formattati e divisi in sezioni leggibili.
+
+SU GITHUB:
+1. Carica e sostituisci index.html, style.css, script.js e LEGGIMI.txt.
+2. Conferma con Commit changes.
+3. Netlify pubblicherà automaticamente la nuova versione.
+
+PER RIDURRE IL TITOLO INIZIALE:
+Apri style.css e cerca la sezione "TESTI E TITOLI".
+Modifica il valore font-size dentro h1.
+
+Solo su mobile, cerca la sezione "MOBILE" e modifica:
+.hero h1
