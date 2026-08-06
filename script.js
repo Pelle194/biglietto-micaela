@@ -15,5 +15,6 @@ function choose(l){scores[l]++;glitter(18);if(current<questions.length-1){curren
 function result(){const winner=['A','B','C'].reduce((best,l)=>scores[l]>scores[best]?l:best,'A'),r=results[winner];resultIcon.textContent=r.icon;resultTitle.textContent=r.title;resultText.textContent=r.text;show('result');glitter(44)}
 start.onclick=()=>{current=0;scores={A:0,B:0,C:0};render();show('quiz');glitter(24)};
 openCard.onclick=()=>{show('final');glitter(70)};
+printCardButton.onclick=()=>window.print();
 restart.onclick=()=>{current=0;scores={A:0,B:0,C:0};show('welcome')};
 setInterval(()=>document.visibilityState==='visible'&&glitter(4),3000);
