@@ -192,29 +192,25 @@ p {
 /* =========================
    CARICAMENTO E RISULTATO
 ========================= */
-.orb{
-    position:relative;
+.orb {
+  width: 175px;
+  height: 175px;
+  margin: 0 auto 28px;
 
-    width:175px;
-    height:175px;
+  display: grid;
+  place-items: center;
 
-    border-radius:50%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    background:conic-gradient(
-        var(--pink),
-        var(--yellow),
-        var(--sky),
-        var(--lilac),
-        var(--pink)
-    );
-
-    box-shadow:0 0 38px #fff;
-
-    animation:spin 2s linear infinite;
+  border-radius: 50%;
+  font-size: 4rem;
+  background: conic-gradient(
+    var(--pink),
+    var(--yellow),
+    var(--sky),
+    var(--lilac),
+    var(--pink)
+  );
+  box-shadow: 0 0 38px #ffffff;
+  animation: spin 2s linear infinite;
 }
 .orbCore{
     position:absolute;
