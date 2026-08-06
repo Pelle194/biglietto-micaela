@@ -1,0 +1,10 @@
+COME PUBBLICARLO
+1. Crea su GitHub un nuovo repository, per esempio: biglietto-micaela.
+2. Apri lo ZIP e carica i file index.html, style.css e script.js nella cartella principale del repository.
+3. Su Netlify: Add new site > Import an existing project > GitHub.
+4. Seleziona il repository.
+5. Branch: main. Build command: vuoto. Publish directory: . oppure vuoto.
+6. Premi Deploy.
+
+Per modificare domande e risultati apri script.js.
+Per modificare la scritta finale apri index.html.
