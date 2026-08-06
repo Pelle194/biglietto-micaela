@@ -192,17 +192,19 @@ p {
 /* =========================
    CARICAMENTO E RISULTATO
 ========================= */
-.orb {
-    width: 175px;
-    height: 175px;
-    position: relative;
+.orb{
+    position:relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width:175px;
+    height:175px;
 
-    border-radius: 50%;
-    background: conic-gradient(
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:conic-gradient(
         var(--pink),
         var(--yellow),
         var(--sky),
@@ -210,8 +212,21 @@ p {
         var(--pink)
     );
 
-    box-shadow: 0 0 38px #ffffff;
-    animation: spin 2s linear infinite;
+    box-shadow:0 0 38px #fff;
+
+    animation:spin 2s linear infinite;
+}
+.orbCore{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:4rem;
+
+    animation:pulse 1.3s ease-in-out infinite;
 }
 
 /* =========================
